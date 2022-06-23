@@ -1,0 +1,409 @@
+body{
+    display: flex;
+    background-color: white;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    margin:10px auto;
+    border-radius:5px;
+    /* border: 1px solid #999; */
+    padding:13px;
+    width:220px;
+    height:220px;
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    background-size: cover;
+    }
+
+.CajaGrande{
+    width: 100%;
+    height: 98.1vh;
+    /* border: 1px solid white; */
+}
+
+.BarraArriba{ 
+    width: 100%;
+    height: 7%;
+    position: fixed;
+    margin-top: -9px;
+    /* border: 1px solid white; */
+    /* opacity: 100%; */
+}
+
+.Logo{
+    width: 40%;
+    height: 40%;
+}
+
+img{
+    width: 95%;
+    height: 95%;
+    border-radius: 10%;
+    margin-left: 2%;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    /* opacity: 90%; */
+}
+
+/* img:hover {
+    opacity: 10%;
+} */
+
+header{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid white; */
+    flex-direction: row;
+    background-color: white;
+}
+
+nav{
+    display: flex;
+    width: 99%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.BotonInicio{
+    background-color: black; 
+    color: white;
+}
+
+.BotonInicio:hover{
+    background-color: white;
+    color: black;
+}
+
+button{
+    /* border: 1px solid red; */
+    border: 0;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    width: 4%;
+    height: 70%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    font-weight: bold;
+    background-color: white;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+button:hover{
+    background-color: rgb(208, 208, 208);
+}
+
+
+.BarraBuscadora{
+    display: flex;
+    width: 65%;
+    height: 60%;
+    justify-content: center;
+    align-items: center;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    background-color: rgb(214, 214, 214);
+    /* border: 1px solid blue; */
+
+}
+
+input{
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid red; */
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    /* padding-right: 1%; */
+    border: none;
+    background: transparent;
+    background: url("https://icones.pro/wp-content/uploads/2021/06/icone-loupe-noir.png");
+    padding-right: 3px; 
+    background-size: 22px;
+    background-position: 1%;
+    background-repeat: no-repeat;
+    padding-left: 5%;
+}
+
+input:focus{
+    outline: none;
+    background: transparent;
+    /* padding-left: 1%; */
+    /* text-align: left; */
+}
+
+span{
+    display: flex;
+    width: 4%;
+    text-align: center;
+    line-height: 400%;
+    justify-content: center;
+    align-items: center;
+}
+
+.BotonesLateralesAbajo{
+    display: flex;
+    /* border: 1px solid black; */
+    width: 98%;
+    height: 90%;
+    justify-content: right;
+    align-items: flex-end;
+    position: fixed;
+    
+}
+
+.BotonEspacial{
+    /* border: 1px solid black; */
+    width: 70px;
+    height: 70px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    position: fixed;
+    box-shadow: 3px 3px 100px #000000;
+    
+}
+
+.Contenido{
+    display: flex;
+    /* border: 3px solid blue; */
+    width: 100%;
+    /* height: 120%; */
+    height: 84%;
+    margin-top: 3%;
+    justify-content: center;
+}
+
+.Laterales{
+    display: flex; 
+    /* border: 1px solid red; */
+    width: 98%;
+    height: 143%;
+    flex-direction: row; 
+}
+
+.Laterales > div{
+    width: 100%;
+    /* border: 1px solid blueviolet; */
+}
+
+
+.bordesimg1{
+    width: 100%;
+    height: 40%;
+    /* border: 1px solid white; */
+}
+
+.bordesimg2{
+    width: 100%;
+    height: 60%;
+    /* border: 1px solid white; */
+}
+
+.bordesimg3{
+    width: 100%;
+    height: 80%;
+    /* border: 1px solid white; */
+}
+
+.bordesimg4{
+    width: 100%;
+    height: 20%;
+    /* border: 1px solid white; */
+}
+
+.bordesimg5{
+    width: 100%;
+    height: 50%;
+    /* border: 1px solid white; */
+}
+
+.bordesimg6{
+    width: 100%;
+    height: 50%;
+    /* border: 1px solid white; */
+}
+
+.bordesimg7{
+    width: 100%;
+    height: 70%;
+    /* border: 1px solid white; */
+}
+
+.bordesimg8{
+    width: 100%;
+    height: 30%;
+    /* border: 1px solid white; */
+}
+
+.bordesimg9{
+    width: 100%;
+    height: 70%;
+    /* border: 1px solid white; */
+}
+
+.bordesimg10{
+    width: 100%;
+    height: 60%;
+    /* border: 1px solid white; */
+}
+
+.bordesimg11{
+    width: 100%;
+    height: 40%;
+    /* border: 1px solid white; */
+}
+
+.bordesimg12{
+    width: 100%;
+    height: 20%;
+    /* border: 1px solid white; */
+}
+
+.bordesimg13{
+    width: 100%;
+    height: 80%;
+    /* border: 1px solid white; */
+}
+
+@media only screen and (max-width: 1432px) {
+
+    body{
+        background-color: red;
+    }
+
+    header{
+        width: 101vw;
+        margin-left: -1%;
+    }
+    
+    button{
+        width: 9%;
+        height: 80%; 
+        font-size: 90%;
+        margin: 1px;
+        padding: 0;
+        /* text-align: center; */
+    }
+
+    .BarraArriba{
+        width: 100vw;
+        margin-left: -0.7%;
+    }
+
+    .Logo{
+        width: 70%;
+        height: 100%;
+        margin-left: 50%;
+    }
+
+    .BarraBuscadora{
+        width: 30%;
+    }
+
+    input{
+        padding-left: 15%;
+    }
+
+    .Laterales{
+        width: 86%;
+        flex-wrap: wrap;
+    }
+
+    /* .BotonEspacial{
+        width: 7%;
+        height: 7%;
+    } */
+        
+}
+
+@media only screen and (max-width: 650px){
+
+    body{
+        background-color: blue;
+    }
+
+    input {
+        padding-left: 27%;
+    }
+
+    button{
+        width: 9%;
+    }
+
+    .Logo{
+        margin-right: 30%;
+        width: 120%;
+    }
+
+    nav{
+        margin-left: 5%;
+    }
+
+    /* .BotonEspacial{
+        width: 9%;
+        height: 7%;
+    } */
+}
+
+@media only screen and (max-width: 576px){
+
+    body{
+        background-color: green;
+    }
+
+    .BarraArriba{
+        width: 100vw;
+        margin-left: -2%;
+    }
+    nav{
+        margin-left: 2%;
+    }
+    button{
+        width: 10%;
+    }
+
+    /* .BotonEspacial{
+        width: 11%;
+        height: 7%;
+    } */
+}
+
+@media only screen and (max-width: 390px){
+
+    body{
+        background-color: purple;
+    }
+
+    button {
+        width: 22%;
+        height: 47%;
+    }
+
+    nav {
+        margin-left: 5%;
+    }
+
+    .Logo {
+        width: 253%;
+    }
+/* 
+    .BotonEspacial{
+        width: 17%;
+        height: 7%;
+    } */
+}
