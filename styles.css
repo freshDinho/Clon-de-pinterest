@@ -29,7 +29,7 @@ body{
     height: 7%;
     position: fixed;
     margin-top: -9px;
-    z-index: 999999;
+    z-index: 999;
     /* border: 1px solid white; */
     /* opacity: 100%; */
 }
@@ -163,6 +163,7 @@ span{
     justify-content: right;
     align-items: flex-end;
     position: fixed;
+    /* z-index: 10; */
     
 }
 
@@ -177,6 +178,10 @@ span{
     position: fixed;
     box-shadow: 3px 3px 100px #000000;
     
+}
+
+.Laterales{
+    margin-right: 6%;
 }
 
 .Contenido{
@@ -209,6 +214,7 @@ span{
     height: 40%;
     opacity: .70;
     /* border: 1px solid white; */
+
 }
 
 .bordesimg1:hover{
@@ -230,76 +236,349 @@ span{
 }
 
 .bordesimg2{
+    display: flex;
+    position: relative;
+    justify-content: right;
+    align-content: center;
     width: 100%;
     height: 60%;
-    /* border: 1px solid white; */
+    /* border: 1px solid black; */
+}
+
+.bordesimg2:hover .btn {
+    display: block;
+}
+
+.bordesimg2:hover .btnDescargar {
+    display: block;
+}
+
+.bordesimg2:hover .btnMasOpciones {
+    display: block;
+}
+
+.bordesimg2:hover .btnFondo {
+    background-color: black;
+    opacity: 40%;
+    display: block;
 }
 
 .bordesimg3{
+    display: flex;
+    position: relative;
+    justify-content: right;
+    align-content: center;
     width: 100%;
     height: 80%;
     /* border: 1px solid white; */
 }
 
+.bordesimg3:hover .btn {
+    display: block;
+}
+
+.bordesimg3:hover .btnDescargar {
+    display: block;
+}
+
+.bordesimg3:hover .btnMasOpciones {
+    display: block;
+}
+
+.bordesimg3:hover .btnFondo {
+    background-color: black;
+    opacity: 40%;
+    display: block;
+}
+
 .bordesimg4{
+    display: flex;
+    position: relative;
+    justify-content: right;
+    align-content: center;
     width: 100%;
-    height: 20%;
+    height: 39%;
     /* border: 1px solid white; */
 }
 
+.bordesimg4:hover .btn {
+    display: block;
+}
+
+.bordesimg4:hover .btnDescargar {
+    display: block;
+}
+
+.bordesimg4:hover .btnMasOpciones {
+    display: block;
+}
+
+.bordesimg4:hover .btnFondo {
+    background-color: black;
+    opacity: 40%;
+    display: block;
+}
+
+
 .bordesimg5{
+    display: flex;
+    position: relative;
+    justify-content: right;
+    align-content: center;
     width: 100%;
     height: 50%;
     /* border: 1px solid white; */
+}
+
+.bordesimg5:hover .btn {
+    display: block;
+}
+
+.bordesimg5:hover .btnDescargar {
+    display: block;
+}
+
+.bordesimg5:hover .btnMasOpciones {
+    display: block;
+}
+
+.bordesimg5:hover .btnFondo {
+    background-color: black;
+    opacity: 40%;
+    display: block;
 }
 
 .bordesimg6{
+    display: flex;
+    position: relative;
+    justify-content: right;
+    align-content: center;
     width: 100%;
     height: 50%;
     /* border: 1px solid white; */
 }
 
+.bordesimg6:hover .btn {
+    display: block;
+}
+
+.bordesimg6:hover .btnDescargar {
+    display: block;
+}
+
+.bordesimg6:hover .btnMasOpciones {
+    display: block;
+}
+
+.bordesimg6:hover .btnFondo {
+    background-color: black;
+    opacity: 40%;
+    display: block;
+}
+
+
 .bordesimg7{
+    display: flex;
+    position: relative;
+    justify-content: right;
+    align-content: center;
     width: 100%;
     height: 70%;
     /* border: 1px solid white; */
 }
+
+.bordesimg7:hover .btn {
+    display: block;
+}
+
+.bordesimg7:hover .btnDescargar {
+    display: block;
+}
+
+.bordesimg7:hover .btnMasOpciones {
+    display: block;
+}
+
+.bordesimg7:hover .btnFondo {
+    background-color: black;
+    opacity: 40%;
+    display: block;
+}
+
 
 .bordesimg8{
-    width: 100%;
-    height: 30%;
-    /* border: 1px solid white; */
-}
-
-.bordesimg9{
-    width: 100%;
-    height: 70%;
-    /* border: 1px solid white; */
-}
-
-.bordesimg10{
-    width: 100%;
-    height: 60%;
-    /* border: 1px solid white; */
-}
-
-.bordesimg11{
+    display: flex;
+    position: relative;
+    justify-content: right;
+    align-content: center;
     width: 100%;
     height: 40%;
     /* border: 1px solid white; */
 }
 
-.bordesimg12{
+.bordesimg8:hover .btn {
+    display: block;
+}
+
+.bordesimg8:hover .btnDescargar {
+    display: block;
+}
+
+.bordesimg8:hover .btnMasOpciones {
+    display: block;
+}
+
+.bordesimg8:hover .btnFondo {
+    background-color: black;
+    opacity: 40%;
+    display: block;
+}
+
+
+.bordesimg9{
+    display: flex;
+    position: relative;
+    justify-content: right;
+    align-content: center;
     width: 100%;
-    height: 20%;
+    height: 70%;
     /* border: 1px solid white; */
 }
 
+.bordesimg9:hover .btn {
+    display: block;
+}
+
+.bordesimg9:hover .btnDescargar {
+    display: block;
+}
+
+.bordesimg9:hover .btnMasOpciones {
+    display: block;
+}
+
+.bordesimg9:hover .btnFondo {
+    background-color: black;
+    opacity: 40%;
+    display: block;
+}
+
+
+.bordesimg10{
+    display: flex;
+    position: relative;
+    justify-content: right;
+    align-content: center;
+    width: 100%;
+    height: 60%;
+    /* border: 1px solid white; */
+}
+
+.bordesimg10:hover .btn {
+    display: block;
+}
+
+.bordesimg10:hover .btnDescargar {
+    display: block;
+}
+
+.bordesimg10:hover .btnMasOpciones {
+    display: block;
+}
+
+.bordesimg10:hover .btnFondo {
+    background-color: black;
+    opacity: 40%;
+    display: block;
+}
+
+
+.bordesimg11{
+    display: flex;
+    position: relative;
+    justify-content: right;
+    align-content: center;
+    width: 100%;
+    height: 40%;
+    /* border: 1px solid white; */
+}
+
+.bordesimg11:hover .btn {
+    display: block;
+}
+
+.bordesimg11:hover .btnDescargar {
+    display: block;
+}
+
+.bordesimg11:hover .btnMasOpciones {
+    display: block;
+}
+
+.bordesimg11:hover .btnFondo {
+    background-color: black;
+    opacity: 40%;
+    display: block;
+}
+
+
+.bordesimg12{
+    display: flex;
+    position: relative;
+    justify-content: right;
+    align-content: center;
+    width: 100%;
+    height: 40%;
+    /* border: 1px solid white; */
+}
+
+.bordesimg12:hover .btn {
+    display: block;
+}
+
+.bordesimg12:hover .btnDescargar {
+    display: block;
+}
+
+.bordesimg12:hover .btnMasOpciones {
+    display: block;
+}
+
+.bordesimg12:hover .btnFondo {
+    background-color: black;
+    opacity: 40%;
+    display: block;
+}
+
+
 .bordesimg13{
+    display: flex;
+    position: relative;
+    justify-content: right;
+    align-content: center;
     width: 100%;
     height: 80%;
     /* border: 1px solid white; */
 }
+
+.bordesimg13:hover .btn {
+    display: block;
+}
+
+.bordesimg13:hover .btnDescargar {
+    display: block;
+}
+
+.bordesimg13:hover .btnMasOpciones {
+    display: block;
+}
+
+.bordesimg13:hover .btnFondo {
+    background-color: black;
+    opacity: 40%;
+    display: block;
+}
+
 
 @media only screen and (max-width: 1432px) {
 
